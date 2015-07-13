@@ -97,29 +97,29 @@ body{
     }
 
     .image5{
-        margin-top: 0px;
+        margin-top: 20px;
     }
 
     .image6{
-        margin-top: 0px;
+        margin-top: 100px;
     }
     .image7{
         margin-top: 30px;
     }
 
     .image8{
-        margin-top: 0px;
+        margin-top: 50px;
     }
 
     .image9{
-        margin-top: 0px;
+        margin-top: 100px;
     }
     .image10{
-        margin-top: 0px;
+        margin-top: 150px;
     }
 
     .image11{
-        margin-top: 100px;
+        margin-top: 200px;
     }
 }
 
@@ -181,8 +181,8 @@ body{
 
 .about-text{
     font-family: FounderGrotesk;
-    letter-spacing: 1px;
-    line-height: 30px;
+    letter-spacing: 0;
+    line-height: 26px;
     margin-top: 120px;
     font-size: 1em;
 }
@@ -312,7 +312,7 @@ body{
 
 .form-newsletter-container{
     background-color: black;
-    letter-spacing: 2px;
+    letter-spacing: 0;
     color: white;
     padding: 30px;
     font-family: FounderGrotesk;
