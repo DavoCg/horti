@@ -181,5 +181,126 @@ style: {
         offLg: 6,
         offMd: 6
 }
-}
+},
+    {
+        id: '4',
+        type: 'slider',
+        thumbnail: '../images/homepage-thumbnails/benhasset.jpg',
+        style: {
+            lg: 6,
+            md: 6,
+            sm: 24,
+            xs: 24,
+            offLg: 2,
+            offMd: 2
+        }
+
+    },
+    {
+        id: '5',
+        type: 'slider',
+        thumbnail: '../images/homepage-thumbnails/paola-1.jpg',
+        style: {
+            lg: 4,
+            md: 4,
+            sm: 24,
+            xs: 24,
+            offLg: 2,
+            offMd: 2
+        }
+
+    },
+
+    {
+        id: '6',
+        type: 'slider',
+        thumbnail: '../images/homepage-thumbnails/beauty-tools-1.jpg',
+        style: {
+            lg: 4,
+            md: 4,
+            sm: 24,
+            xs: 24,
+            offLg: 6,
+            offMd: 6
+        }
+
+    },
+
+    {
+        id: '7',
+        type: 'text',
+        thumbnail: '../images/homepage-thumbnails/bellafreud-1.jpg',
+        style: {
+            lg: 4,
+            md: 4,
+            sm: 24,
+            xs: 24,
+            offLg: 2,
+            offMd: 2
+        }
+
+    },
+
+
+    {
+        id: '8',
+        type: 'slider',
+        thumbnail: '../images/homepage-thumbnails/christian.jpg',
+        style: {
+            lg: 4,
+            md: 4,
+            sm: 24,
+            xs: 24,
+            offLg: 4,
+            offMd: 4
+        }
+
+    },
+
+    {
+        id: '9',
+        type: 'slider',
+        thumbnail: '../images/homepage-thumbnails/brunostaub.jpg',
+        style: {
+            lg: 6,
+            md: 6,
+            sm: 24,
+            xs: 24,
+            offLg: 1,
+            offMd: 1
+        }
+
+    },
+
+    {
+        id: '10',
+        type: 'text',
+        thumbnail: '../images/homepage-thumbnails/pamhogg.jpg',
+        style: {
+            lg: 6,
+            md: 6,
+            sm: 24,
+            xs: 24,
+            offLg: 6,
+            offMd: 6
+        }
+
+    },
+
+    {
+        id: '11',
+        type: 'text',
+        thumbnail: '../images/homepage-thumbnails/Blonde3.jpg',
+        style: {
+            lg: 6,
+            md: 6,
+            sm: 24,
+            xs: 24,
+            offLg: 4,
+            offMd: 4
+        }
+
+    }
 ];
+
+

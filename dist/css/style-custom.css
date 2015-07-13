@@ -97,29 +97,29 @@ body{
     }
 
     .image5{
-        margin-top: -250px;
+        margin-top: 0px;
     }
 
     .image6{
-        margin-top: -300px;
+        margin-top: 0px;
     }
     .image7{
         margin-top: -90px;
     }
 
     .image8{
-        margin-top: 220px;
+        margin-top: 0px;
     }
 
     .image9{
-        margin-top: -250px;
+        margin-top: 0px;
     }
     .image10{
-        margin-top: 150px;
+        margin-top: 0px;
     }
 
     .image11{
-        margin-top: -220px;
+        margin-top: 0px;
     }
 }
 
@@ -366,4 +366,11 @@ input[type="text"]:focus {
     display: block;
     margin: auto;
     width: 50px;
+}
+
+.buy-issue{
+    font-family: FounderGrotesk;
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
 }
