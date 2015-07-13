@@ -10,7 +10,7 @@ body{
 .cross-close{
     position: fixed;
     top: 20px;
-    right: 20px;
+    right: 40px;
     width: 40px;
 }
 
@@ -48,7 +48,90 @@ body{
 .content{
 }
 
+
+@media only screen and (max-width: 40em){
+
+    .arrow{
+        display: block;
+        margin: auto;
+        width: 50px;
+        margin-left: 43.2%;
+        margin-bottom: -30px;
+    }
+
+    .details-image-container{
+        position: absolute;
+        top: 0
+    }
+
+    .details-text-container{
+        position: absolute;
+        top: 72%
+    }
+
+    .details-image-slider{
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 25%;
+    }
+
+    .caption{
+        font-family: FounderGrotesk;
+        width: 100%;
+        text-align: center;
+    }
+
+
+}
+@media only screen and (max-width: 50em) and (min-width: 40.5em){
+
+    .arrow{
+        display: block;
+        margin: auto;
+        width: 50px;
+        margin-left: 50.9%;
+        margin-bottom: -30px;
+    }
+
+    .details-image-container{
+        position: absolute;
+        top: 0
+    }
+
+    .details-text-container{
+        position: absolute;
+        top: 85%
+    }
+
+
+    .caption{
+        font-family: FounderGrotesk;
+        width: 100%;
+        text-align: center;
+    }
+
+    .details-image-slider{
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 25%;
+    }
+}
+
 @media only screen and (min-width: 62em) {
+
+    .caption{
+        font-family: FounderGrotesk;
+        width: 50%;
+        margin-left: 25%;
+        text-align: center;
+    }
+
+    .loupe{
+        display: block;
+        float: right;
+    }
 
     body{
         padding: 50px;
@@ -59,6 +142,14 @@ body{
         height: 100%;
         display: block;
         margin: auto;
+    }
+
+    .arrow{
+        display: block;
+        margin: auto;
+        width: 50px;
+        margin-left: 44.1%;
+        margin-bottom: -30px;
     }
 
     .about-text{
@@ -132,8 +223,7 @@ body{
 }
 
 .social-image{
-    width: 30%;
-    margin-left: 35%;
+    width: 100%;
     display: inline-block;
 }
 
@@ -300,12 +390,6 @@ body{
     height: 500px;
 }
 
-.details-image-slider{
-    height: 100%;
-    display: block;
-    margin: auto;
-}
-
 .details-image-slider:hover{
     cursor: pointer;
 }
@@ -362,11 +446,6 @@ input[type="text"]:focus {
     text-align: center;
 }
 
-.arrow{
-    display: block;
-    margin: auto;
-    width: 50px;
-}
 
 .buy-issue{
     font-family: FounderGrotesk;
@@ -378,4 +457,9 @@ input[type="text"]:focus {
 .buy-issue > a{
     text-decoration: none;
     color: dimgray;
+}
+
+
+.loupe{
+    display: block;
 }
