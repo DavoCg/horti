@@ -281,8 +281,8 @@ style: {
             md: 6,
             sm: 24,
             xs: 24,
-            offLg: 6,
-            offMd: 6
+            offLg: 4,
+            offMd: 4
         }
 
     },
