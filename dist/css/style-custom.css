@@ -36,7 +36,7 @@ body{
     list-style-type: none;
     font-family: FounderGrotesk;
     letter-spacing: 1px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-bottom: 15px;
     text-align: right;
 }
@@ -65,7 +65,7 @@ body{
         font-family: FounderGrotesk;
         line-height: 35px;
         margin-top: 120px;
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     .about-text > p{
@@ -132,8 +132,8 @@ body{
 }
 
 .social-image{
-    width: 50%;
-    margin-left: 25%;
+    width: 30%;
+    margin-left: 35%;
     display: inline-block;
 }
 
@@ -141,7 +141,7 @@ body{
     list-style-type: none;
     font-family: FounderGrotesk;
     letter-spacing: 1px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -184,7 +184,7 @@ body{
     letter-spacing: 1px;
     line-height: 35px;
     margin-top: 120px;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .about-text > p{
@@ -313,7 +313,7 @@ body{
 .form-newsletter-container{
     background-color: black;
     font-family: FounderGrotesk;
-    font-size: 1.5em;
+    font-size: 1.3em;
     letter-spacing: 2px;
     color: white;
     padding: 30px;
