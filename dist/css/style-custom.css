@@ -1,0 +1,369 @@
+@font-face {
+    font-family: FounderGrotesk;
+    src: url('../fonts/FoundersGroteskTextWeb-Light.woff');
+}
+
+body{
+
+}
+
+.cross-close{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+}
+
+.capitalize{
+    text-transform: uppercase;
+}
+
+.header{
+    margin-top: -290px;
+    position: fixed;
+    background-color: white;
+}
+
+.logo{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.menu{
+}
+
+.menu > li{
+    list-style-type: none;
+    font-family: FounderGrotesk;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+.content{
+}
+
+@media only screen and (min-width: 62em) {
+
+    body{
+        padding: 50px;
+        padding-top: 20px;
+    }
+
+    .details-image-slider{
+        height: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .about-text{
+        font-family: FounderGrotesk;
+        line-height: 35px;
+        margin-top: 120px;
+        font-size: 1.4em;
+    }
+
+    .about-text > p{
+        margin-bottom: 50px;
+    }
+
+    .about-text > p > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .image1{
+        margin-top: -20px;
+    }
+
+    .image2{
+        margin-top: 250px;
+    }
+
+    .image3{
+        margin-top: 0px;
+    }
+    .image4{
+        margin-top: -20px;
+    }
+
+    .image5{
+        margin-top: -250px;
+    }
+
+    .image6{
+        margin-top: -300px;
+    }
+    .image7{
+        margin-top: -90px;
+    }
+
+    .image8{
+        margin-top: 220px;
+    }
+
+    .image9{
+        margin-top: -250px;
+    }
+    .image10{
+        margin-top: 150px;
+    }
+
+    .image11{
+        margin-top: -220px;
+    }
+}
+
+.image{
+    width: 100%;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.social-image{
+    width: 50%;
+    margin-left: 25%;
+    display: inline-block;
+}
+
+.pagination{
+    list-style-type: none;
+    font-family: FounderGrotesk;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.shop-image{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.sub-shop{
+    font-family: FounderGrotesk;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.sub-shop-buy{
+    font-family: FounderGrotesk;
+    text-align: center;
+    margin-top: -5px;
+    color: dimgrey;
+    font-size: 1.2em;
+}
+
+.sub-shop-buy > a{
+    text-decoration: none;
+    color: dimgray;
+}
+
+.details-text-container{
+    margin-top: 50px;
+    height: 900px;
+    width: 100%;
+    overflow-y: scroll;
+    padding-right: 30px;
+}
+
+.about-text{
+    font-family: FounderGrotesk;
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin-top: 120px;
+    font-size: 1.4em;
+}
+
+.about-text > p{
+    margin-bottom: 50px;
+}
+
+.about-text > p > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.details-text-container::-webkit-scrollbar {
+    width: 0.3em;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.details-text-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+.details-text-container::-webkit-scrollbar-thumb {
+    outline: 1px solid slategrey;
+    background-color: black;
+    width: 15px;
+    height: 20px;
+}
+
+.details-text-container::-webkit-scrollbar-track-piece{
+    width: 20px;
+    height: 30px;
+
+}
+
+.details-image-container{
+    margin-top: 50px;
+    height: 700px;
+    width: 100%;
+
+}
+
+.details-text-title{
+    font-family: FounderGrotesk;
+    font-weight: 800;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0;
+}
+
+.details-text-artist{
+    font-family: FounderGrotesk;
+    font-size: 1.2em;
+}
+
+.details-text-content{
+    font-family: FounderGrotesk;
+    line-height: 30px;
+    font-size: 1.2em;
+}
+
+.details-image{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.details-image:hover{
+    cursor: pointer;
+}
+
+.slider-dots{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.slider-credits{
+    font-family: FounderGrotesk;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+
+}
+
+.container-credits{
+    text-align: center;
+    padding: 200px;
+}
+
+.container-credits:hover{
+    cursor: pointer;
+}
+
+.slider-dot{
+    margin-left: 3px;
+    margin-right: 3px;
+    color: grey;
+}
+
+.slider-dot-active{
+    margin-left: 3px;
+    margin-right: 3px;
+    color: cornflowerblue;
+}
+
+.slider-dot-active:hover{
+    cursor: pointer;
+}
+
+.slider-dot:hover{
+    cursor: pointer;
+}
+
+.details-image-slider-container{
+    height: 500px;
+}
+
+.details-image-slider{
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.details-image-slider:hover{
+    cursor: pointer;
+}
+
+.form-newsletter-container{
+    background-color: black;
+    font-family: FounderGrotesk;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: white;
+    padding: 30px;
+}
+
+.newletter-element{
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-family: FounderGrotesk;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    background-color: black;
+    border: none;
+    border-bottom: solid 1px white;
+    color: white
+}
+input[type="text"]:focus {
+    outline: none;
+}
+
+.send-button{
+    border: solid 1px white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.image-spread{
+    width: 100%;
+}
+
+.no-spread{
+    font-family: FounderGrotesk;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.arrow{
+    display: block;
+    margin: auto;
+    width: 70px;
+}
