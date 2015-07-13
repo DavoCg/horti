@@ -182,9 +182,9 @@ body{
 .about-text{
     font-family: FounderGrotesk;
     letter-spacing: 1px;
-    line-height: 35px;
+    line-height: 30px;
     margin-top: 120px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .about-text > p{
