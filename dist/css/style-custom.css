@@ -10,8 +10,8 @@ body{
 .cross-close{
     position: fixed;
     top: 20px;
-    right: 40px;
-    width: 40px;
+    right: 30px;
+    width: 30px;
 }
 
 .capitalize{
