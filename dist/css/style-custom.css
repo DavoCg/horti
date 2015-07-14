@@ -10,7 +10,7 @@ body{
 .cross-close{
     position: fixed;
     top: 20px;
-    right: 30px;
+    right: 40px;
     width: 30px;
 }
 
@@ -51,11 +51,19 @@ body{
 
 @media only screen and (max-width: 40em){
 
+    .details-text-container{
+        margin-top: 50px;
+        height: 900px;
+        width: 100%;
+        overflow-y: hidden;
+        padding-right: 30px;
+    }
+
     .arrow{
         display: block;
         margin: auto;
         width: 50px;
-        margin-left: 43.2%;
+        margin-left: 45.5%;
         margin-bottom: -30px;
     }
 
@@ -66,7 +74,7 @@ body{
 
     .details-text-container{
         position: absolute;
-        top: 72%
+        top: 80%
     }
 
     .details-image-slider{
@@ -90,7 +98,7 @@ body{
         display: block;
         margin: auto;
         width: 50px;
-        margin-left: 50.9%;
+        margin-left: 50%;
         margin-bottom: -30px;
     }
 
